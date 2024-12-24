@@ -4,6 +4,8 @@
 ## Usage: To create a text table of files in a folder so that it can be directly copied and pasted to obsidian notes
 
 ## Module
+import os, glob
+from PySide6.QtGui import QFont
 from PySide6.QtWidgets import QFileDialog, QApplication
 from pathlib import Path
 from itertools import islice
