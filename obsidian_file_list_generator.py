@@ -1,9 +1,11 @@
 ## Author: Kang
 ## Established: 2024-12-02
-## Last Updated: 2024-12-24
+## Last Updated: 2024-12-02
 ## Usage: To create a text table of files in a folder so that it can be directly copied and pasted to obsidian notes
 
 ## Module
+import os, glob
+from PySide6.QtGui import QFont
 from PySide6.QtWidgets import QFileDialog, QApplication
 from pathlib import Path
 from itertools import islice
