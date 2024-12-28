@@ -1,7 +1,9 @@
 ---
 Established: 2024-12-02
-Last Updated: 2024-12-02
+Last Updated: 2024-12-28
 Description: To use python list out all files in a folder so that the table can be directly copied and pasted to Obsidian notes.
+tags:
+  - python
 ---
 # Results
 ![](execution.png)
