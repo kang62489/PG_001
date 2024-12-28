@@ -5,7 +5,7 @@ Description: To use python list out all files in a folder so that the table can 
 tags:
   - python
 ---
-# Results
+# OUTPUT
 ![](execution.png)
 
 # MEMO
