@@ -1,8 +1,3 @@
-## Author: Kang
-## Established: 2024-12-02
-## Last Updated: 2024-12-24
-## Usage: To create a text table of files in a folder so that it can be directly copied and pasted to obsidian notes
-
 ## Module
 from PySide6.QtWidgets import QFileDialog, QApplication
 from pathlib import Path
@@ -51,7 +46,8 @@ def tree(dir_path: Path, level: int=-1, limit_to_directories: bool=False,
 
 # Generate a dialog to request file directory
 def get_folder():
-    caption = 'Please choose a directory of expdata which contains both ".tif" and ".rec" files.'
+    """Get the path of a folder"""
+    caption = 'Please select a folder'
     init_dir = ""
     dialog = QFileDialog()
     dialog.setWindowTitle(caption)
