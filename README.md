@@ -1,8 +1,8 @@
 ---
-program name: folder_tree
+Program Name: folder_tree
 Established: 2024-12-02
 Last Updated: 2025-05-08
-Description: A python program gui to print the folder tree structure in terminal so that it can be copied and pasted in the markdown file (Obsidian note).
+Description: A python program to print the folder tree structure in terminal so that it can be copied and pasted in the markdown file (Obsidian note).
 tags:
   - python
 ---
